@@ -1,6 +1,15 @@
+:root {
+    background-color: #6A7565;
+}
+
 @font-face {
     font-family: 'norse-bold';
     src: url('font/Norse-Bold.otf');
+}
+
+html {
+    height: 100% !important;
+    height: 100%;
 }
 * {
     margin: 0;
@@ -9,7 +18,8 @@
 }
 
 .container {
-    background-color: #0E0E0E;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
 }
@@ -19,8 +29,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 21vw;
-    height: 100vh;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,8 +37,9 @@
 }
 
 .logo-back {
+    width: 100%;
     align-self: flex-end;
-    background-color: #0e0e0e1d;
+    background-color: #0e0e0e3c;
 }
 .logo-area span {
     align-self: flex-end;
@@ -51,15 +61,51 @@
 
 .sign-up-area {
     background-color: #F9FAFB;
-    width: 41vw;
+    width: 40%;
     height: 100vh;
     display: flex;
-    justify-content: right;
     flex-direction: column;
-    padding: 100px 100px 0px 30px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    padding-left: 3vw;
+    padding-right: 10vw;
+}
+
+.presention {
+    margin: 100px 0px 70px 0px;
 }
 
 .presention p {
-    width: 42vw;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.form-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    margin-bottom: 50px;
+    gap: 20px;
+    width: 60%;
+}
+
+.form-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+@media screen and (max-width:502px) {
+    .logo-area {
+        background-image: url('images/shot-by-cerqueiraPEQ.jpg');
+        width: 40vw;
+    }
+
+    .sign-up-area {
+        width: 50vw;
+    }
 }
