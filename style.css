@@ -9,5 +9,57 @@
 }
 
 .container {
+    background-color: #0E0E0E;
     display: flex;
+    justify-content: center;
+}
+
+.logo-area {
+    background-image: url('images/shot-by-cerqueiraGRA.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 21vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-back {
+    align-self: flex-end;
+    background-color: #0e0e0e1d;
+}
+.logo-area span {
+    align-self: flex-end;
+    margin: 10px;
+    font-size: 1vw;
+    color: #F9FAFB;
+}
+
+.logo-area span a {
+    color: #F9FAFB;
+}
+
+.logo-back img {
+    margin-top: 20px;
+    width: 100%;
+}
+
+/*--------------------------*/
+
+.sign-up-area {
+    background-color: #F9FAFB;
+    width: 41vw;
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding: 100px 100px 0px 30px;
+}
+
+.presention p {
+    width: 42vw;
+    padding-bottom: 20px;
 }
