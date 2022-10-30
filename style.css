@@ -2,19 +2,14 @@
     background-color: #6A7565;
 }
 
-@font-face {
-    font-family: 'norse-bold';
-    src: url('font/Norse-Bold.otf');
+html, body {
+    height: 100vh;
 }
 
-html {
-    height: 100% !important;
-    height: 100%;
-}
 * {
     margin: 0;
     padding: 0;
-    font-family: 'norse-bold';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -72,7 +67,7 @@ html {
 }
 
 .presention {
-    margin: 100px 0px 70px 0px;
+    margin: 50px 0px 50px 0px;
 }
 
 .presention p {
@@ -85,7 +80,13 @@ html {
     justify-content: left;
     margin-bottom: 50px;
     gap: 20px;
-    width: 60%;
+    width: 100%;
+}
+
+.form-content input {
+    border: 1px #6A7565 solid;
+    border-radius: 5px;
+
 }
 
 .form-title {
@@ -97,6 +98,35 @@ html {
 .input {
     display: flex;
     flex-flow: column wrap;
+}
+
+/*------------------*/
+
+.btn-sign {
+    margin-bottom: 10px;
+}
+
+.btn-sign button {
+    padding: 6px;
+    font-size: 1.2rem;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #6A7565;
+    color: #F9FAFB;
+}
+
+.btn-sign button:hover {
+    background-color: #6a7565bc;
+    cursor: pointer;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.login a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width:502px) {
