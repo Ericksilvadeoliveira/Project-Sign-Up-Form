@@ -79,7 +79,7 @@ html, body {
     flex-flow: row wrap;
     justify-content: left;
     margin-bottom: 50px;
-    gap: 20px;
+    gap: 40px;
     width: 100%;
 }
 
@@ -127,15 +127,4 @@ html, body {
 
 .login a:hover {
     text-decoration: underline;
-}
-
-@media screen and (max-width:502px) {
-    .logo-area {
-        background-image: url('images/shot-by-cerqueiraPEQ.jpg');
-        width: 40vw;
-    }
-
-    .sign-up-area {
-        width: 50vw;
-    }
 }
